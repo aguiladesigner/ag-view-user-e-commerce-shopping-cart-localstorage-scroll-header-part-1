@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #f2f2f2;
+    padding-top: 80px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+img {
+    width: 320px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #2D4263;
+
+}
+
+.scroll {
+    background-color: aliceblue;
+    box-shadow: .1rem .2rem .3rem #333;
+}
+
+.scroll img {
+    filter: invert(15%);
+}
+
+.scroll h1 {
+    color: #141C29;
+}
+
+.carrito {
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.container>div {
+    background-color: #2D4263;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.container>div:hover {
+    background-color: #11294d;
+}
+
+.information {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.information>p:first-child {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+}
+
+.information .precio {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.information.precio span {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.information button {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2D4263;
+}
+
+.information button:hover {
+    background-color: #2D4263;
+    border: 1px solid #fff;
+}
